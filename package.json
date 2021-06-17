@@ -1,0 +1,22 @@
+{
+  "name": "personalProj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@bible-reader/v11n-utils": "^3.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "kjv": "^1.0.0"
+  }
+}

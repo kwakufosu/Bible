@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #CDCDCD;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+    padding: 0 16px;
+    max-width: 650px;
+    background-image:url("../img/pray.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pray.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+.main-content form{
+    margin-left: 50px;
+}
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 350px;
+    padding: 16px 0;
+    margin-left: 50px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+p{
+    margin-left: 50px;
+}
