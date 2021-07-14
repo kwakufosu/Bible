@@ -16,7 +16,7 @@ document.querySelector('#msg').addEventListener('submit',(e)=>{
             messageOne.textContent= data.error
             messageTwo.textContent=undefined
         }
-        else if(data[1]===null){
+        else if(data[1]===undefined){
             
             messageOne.textContent= "Error: Enter an appropriate scripture" 
             messageTwo.textContent=undefined
